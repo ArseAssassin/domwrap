@@ -70,7 +70,7 @@ class ElementList(object):
 				yield x
 		
 	def __getitem__(self, other):
-		'''XPath-like syntax for querying children. Use 'foo' to fetch all child elements named foo. Use '/foo' to fetch using getElementsByTagName.  Use '@foo' to fetch attributes.'''
+		'''XPath-like syntax for querying children. Use 'foo' to fetch all child elements named foo. Use '/foo' to fetch from all descendants. Use '@foo' to fetch attributes.'''
 		
 		if isinstance(other, slice):
 			return ElementList(self.children.__getitem__(other))
