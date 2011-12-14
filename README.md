@@ -9,6 +9,7 @@ DOMWrap is a thin wrapper over xml.dom.minidom aimed to make parsing XML documen
 ```
 
 Prefix your selector with a backslash to query all descendants.
+
 ```python
 >>> d['feed']['/entry']
 <ElementList [<DOM Element: entry at 0x1508530>, <DOM Element: entry at 0x1508e40>, <DOM Element: entry at 0x150e788>, <DOM Element: entry at 0x15140d0>, <DOM Element: entry at 0x15149e0>, <DOM Element: entry at 0x151a328>, <DOM Element: entry at 0x151ac38>, <DOM Element: entry at 0x151f580>, <DOM Element: entry at 0x151fe90>, <DOM Element: entry at 0x15237b0>, <DOM Element: entry at 0x15290f8>, <DOM Element: entry at 0x1529a08>, <DOM Element: entry at 0x152d350>, <DOM Element: entry at 0x152dc60>, <DOM Element: entry at 0x15325a8>]>
