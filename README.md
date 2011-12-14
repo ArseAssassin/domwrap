@@ -39,9 +39,6 @@ u'https://secure.gravatar.com/avatar/881bd08b6b94e600475ce431e8e6ea35?s=30&d=htt
 >>> d['feed']['/entry'][:5]['media:thumbnail']
 <ElementList [<DOM Element: media:thumbnail at 0x1508bc0>, <DOM Element: media:thumbnail at 0x150e508>, <DOM Element: media:thumbnail at 0x150ee18>, <DOM Element: media:thumbnail at 0x1514760>, <DOM Element: media:thumbnail at 0x151a0a8>]>
 
->>> d['feed']['/entry'][:5]['media:thumbnail']['@url']
-<ElementList [<DOM Element: media:thumbnail at 0x1508bc0>, <DOM Element: media:thumbnail at 0x150e508>, <DOM Element: media:thumbnail at 0x150ee18>, <DOM Element: media:thumbnail at 0x1514760>, <DOM Element: media:thumbnail at 0x151a0a8>]>
-
 >>> doc['/entry'][:3]['media:thumbnail']['@url']
 [u'https://secure.gravatar.com/avatar/881bd08b6b94e600475ce431e8e6ea35?s=30&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png', u'https://secure.gravatar.com/avatar/b8dbb1987e8e5318584865f880036796?s=30&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png', u'https://secure.gravatar.com/avatar/bbe5dc8dcf248706525ab76f46185520?s=30&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png']
 ```
