@@ -22,11 +22,11 @@ u'Eric Gerhardt is a GitHubber'
 
 >>> d['feed']['/entry'][:5]
 <ElementList [<DOM Element: entry at 0x1508530>, <DOM Element: entry at 0x1508e40>, <DOM Element: entry at 0x150e788>, <DOM Element: entry at 0x15140d0>, <DOM Element: entry at 0x15149e0>]>
-```python
+```
 
 ## Attribute access
 
-```
+```python
 >>> doc['/entry']['media:thumbnail'][0]['@url']
 u'https://secure.gravatar.com/avatar/881bd08b6b94e600475ce431e8e6ea35?s=30&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png'
 
