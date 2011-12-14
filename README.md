@@ -1,5 +1,10 @@
 DOMWrap is a thin wrapper over xml.dom.minidom aimed to make parsing XML documents easier. It's designed to be lightweight and easy to distribute for projects where using more fully featured libraries like ElementTree or lxml doesn't make sense.
 
+# Installation
+```$ easy_install domwrap```
+OR
+```$ python setup.py install```
+
 # Usage	
 ```python
 >>> import domwrap, urllib2
